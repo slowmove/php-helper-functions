@@ -1,0 +1,25 @@
+{
+    "name": "slowmove/helpers",
+    "description": "Simple utilities library",
+    "authors": [
+        {
+            "name": "Erik Johansson",
+            "email": "erik.johansson87@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "description": "Simple library containing convenient helper methods for strings, arrays, requests etc",
+    "homepage": "https://github.com/slowmove/SlowmoveLib",
+    "minimum-stability": "stable",
+    "require": {
+	    "php": ">=5.4.0"
+    },
+    "require-dev": {
+	    "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Slowmove\\Helpers\\": "src"
+    	}
+    }
+}
